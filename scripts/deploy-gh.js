@@ -5,7 +5,7 @@ ghpages.publish(
   'public',
   {
     branch: 'master',
-    repo: 'https://github.com/rodrigovive/rodrigovive.github.io,
+    repo: 'https://github.com/rodrigovive/rodrigovive.github.io',
   },
   () => {
     console.log('Deploy Complete!')
