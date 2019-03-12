@@ -1,26 +1,12 @@
-import React from 'react';
-import Header from './Header';
-import {shallow} from 'enzyme'
+import React from "react"
+import { render } from "react-testing-library"
 
-describe("Header", function () {
+// You have to write data-testid
+const Title = () => <h1 data-testid="hero-title">Gatsby is awesome!</h1>
 
-  let mountedHeader;
-
-  beforeEach(() => {
-
-    mountedHeader = shallow(<Header />)
-
-  })
-
-  it('renders without crashing', () => {
-    shallow(<Header />)
-  });
-
-  it('renders a logo', () => {
-
-    const logoImg = mountedHeader.find('img[src="images/wired-brain-coffee-logo.png"]')
-    expect(logoImg.length).toBe(1);
-
-  })
-
+test("Displays the correct title", () => {
+  const { getByTestId } = render(<Title />)
+  // Assertion
+  expect(getByTestId("hero-title")).toHaveTextContent("Gatsby is awesome!")
+  // --> Test will pass
 })
