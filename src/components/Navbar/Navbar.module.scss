@@ -1,0 +1,36 @@
+@import '../../styles/global.scss';
+
+
+.container {
+  height: 4rem;
+  max-width: 960px;
+  margin: 0 auto;
+  justify-content: flex-end;
+  align-items: center;
+
+  .row {
+    text-align: center;
+    padding: 5px;
+    display: flex;
+  }
+
+  .link {
+    color: $color-pallete-1;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-pallete-2;
+    }
+
+    &:not(:last-child) {
+      padding-right: 30px;
+    }
+
+  }
+}
+
+

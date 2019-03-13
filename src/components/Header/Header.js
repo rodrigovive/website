@@ -1,10 +1,9 @@
 import React from 'react'
 import {Link, StaticQuery, graphql} from 'gatsby'
 import styles from './Header.module.scss'
-
 // HeaderLink component
 
-const HeaderLink = props => (
+export const HeaderLink = props => (
   <Link className={styles.link} to={props.to}>{props.text}</Link>
 )
 
@@ -62,10 +61,12 @@ export default () => (
             <SocialButton site='linkedin' username='jhair-rodrigo-viveros-cordova-a92197130' />
             <SocialButton site='twitter' username='RodrigoVCordova' />
           </div>
-
           <div className={styles.row}>
-            <HeaderLink to='/' text='ARTICLES' />
-            <HeaderLink to='' text='ABOUT' />
+            <HeaderLink to='/' text='COOL THINGS' />
+            <HeaderLink to='/about' text='ABOUT' />
+            <HeaderLink to='/project' text='PROJECT' />
+            <HeaderLink to='/blog' text='BLOG' />
+
           </div>
 
         </header>

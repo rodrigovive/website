@@ -1,17 +1,16 @@
 import React from "react"
 import styles from "./Layout.module.scss"
-import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
-
+import Header from '../Header/Header'
 export default ({ children }) => (
 
   <div className={styles.container}>
-    <Header />
+    {/*<Header />*/}
     <div className={styles.content}>
       {children}
     </div>
     <Footer>
-      rodrigoviveros.me
+      Rodrigo Viveros
     </Footer>
   </div>
 )
