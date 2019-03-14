@@ -1,8 +1,9 @@
 ---
 title: "Building starter kit from scratch"
 date: "2019-01-02"
-image: "https://source.unsplash.com/150x150/?gatsbyjs"
+image: "https://source.unsplash.com/150x150/?javascript"
 keywords: "javascript"
+type: "blog"
 ---
 
 ##Wrap up!

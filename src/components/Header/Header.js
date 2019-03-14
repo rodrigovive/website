@@ -29,6 +29,11 @@ const SocialButton = props => {
   else if (props.site === 'github') {
     style = styles.buttonGithub;
     url = 'https://www.github.com/' + props.username;
+  }else if (props.site === 'medium') {
+
+    style = styles.buttonMedium;
+    url = 'https://medium.com/' + props.username
+
   }
 
   return (
@@ -59,13 +64,15 @@ export default () => (
             <HomeButton to='/' text={data.site.siteMetadata.title} />
             <SocialButton site="github" username='rodrigovive'></SocialButton>
             <SocialButton site='linkedin' username='jhair-rodrigo-viveros-cordova-a92197130' />
+            <SocialButton site='medium' username='@cherrynford' />
             <SocialButton site='twitter' username='RodrigoVCordova' />
+
           </div>
           <div className={styles.row}>
-            <HeaderLink to='/' text='COOL THINGS' />
-            <HeaderLink to='/about' text='ABOUT' />
-            <HeaderLink to='/project' text='PROJECT' />
+            <HeaderLink to='/' text='HOME' />
             <HeaderLink to='/blog' text='BLOG' />
+            <HeaderLink to='/project' text='PROJECTS' />
+            {/*<HeaderLink to='/about' text='ABOUT' />*/}
 
           </div>
 

@@ -48,6 +48,12 @@
 
   }
 
+  .button-medium {
+    @extend .button-icon;
+    background-image: url('../../images/medium3.png');
+
+  }
+
   .button-twitter {
     @extend .button-icon;
     background-image: url('../../images/twitter.png');

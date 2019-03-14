@@ -1,6 +1,6 @@
 @import '../../styles/global.scss';
 
-$footer-height: 100px;
+$footer-height: 50px;
 
 .container {
   background-color: $color-pallete-3;
@@ -18,6 +18,7 @@ $footer-height: 100px;
     color: $color-pallete-4;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0px 20px 0px 20px;
+    text-align: center;
   }
 
 }

@@ -5,6 +5,7 @@ import styles from './Article.module.scss'
 export default (props) => (
 
   <Link to={props.to}>
+    {console.log(props)}
     <article className={styles.articleBox} key={props.id}>
       <div className={styles.left}>
         <img src={`https://source.unsplash.com/150x150/?${props.keywords}`} alt={props.title}/>
@@ -16,7 +17,7 @@ export default (props) => (
         <div className={styles.date}>{props.date}
 
         </div>
-        <div>
+        <div className={styles.descriptive}>
           {props.excerpt}
         </div>
       </div>

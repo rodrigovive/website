@@ -36,6 +36,12 @@
       font-size: 12px;
     }
 
+    .descriptive {
+      @media only screen and (max-width: 600px) {
+        display: none;
+      }
+    }
+
     h3 {
       color: $color-pallete-3;
     }
