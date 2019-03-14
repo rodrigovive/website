@@ -70,9 +70,8 @@ export default () => (
           </div>
           <div className={styles.row}>
             <HeaderLink to='/' text='HOME' />
-            <HeaderLink to='/blog' text='BLOG' />
             <HeaderLink to='/project' text='PROJECTS' />
-            {/*<HeaderLink to='/about' text='ABOUT' />*/}
+            <HeaderLink to='/about' text='ABOUT' />
 
           </div>
 

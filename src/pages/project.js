@@ -8,9 +8,9 @@ import Seo from "../components/Seo/Seo"
 
 export default () => (
   <Layout>
-    <Seo title="Rodrigo Viveros - Project" pathname="/project"
+    <Seo title="Rodrigo Viveros - Projects" pathname="/project"
          description="Project for learning and work"/>
-    <Title text="Rodrigo Viveros - Project"/>
+    <Title text="Rodrigo Viveros - Projects"/>
     <Header/>
     {/*<div>*/}
     {/*<Link to="/">Home</Link> | <Link to="/about">About</Link>*/}
