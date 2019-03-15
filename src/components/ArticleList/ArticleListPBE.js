@@ -7,7 +7,7 @@ export default () => (
 
     query={graphql`query {
          allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC,}
-         ,filter: {frontmatter: {type: {eq: "blog"}}}) {
+         ,filter: {frontmatter: {type: {eq: "pbe-english"}}}) {
            totalCount
            edges {
              node {

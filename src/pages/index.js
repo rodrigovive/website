@@ -19,7 +19,7 @@ export default () => (
     <h2>I write stuff</h2>
     <p>I blog about stuff I find interesting (courses online, books and
       more)</p>
-    <ArticleList type="blog"/>
+    <ArticleList />
   </Layout>
 
 )

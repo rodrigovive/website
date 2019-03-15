@@ -2,7 +2,7 @@ import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Article from "../Article/Article"
 
-export default ({ type }) => (
+export default () => (
   <StaticQuery
 
     query={graphql`query {
