@@ -16,9 +16,12 @@ export default () => (
       {/*<Link to="/">Home</Link> | <Link to="/about">About</Link>*/}
       {/*</div>*/}
       {/*<p>Lorem</p>*/}
-      <h2>I build things</h2>
-      <p>I have created projects for learning and work</p>
-      <ArticleList />
+      <main>
+        <h2>I build things</h2>
+        <p>I have created projects for learning and work</p>
+        <ArticleList />
+
+      </main>
   </Layout>
 
 )

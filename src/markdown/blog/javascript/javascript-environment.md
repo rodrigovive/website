@@ -39,44 +39,42 @@ type: "blog"
 
 1.  Create `.editorconfig`
 2.  Code for .editorconfig
-    <figure>
+    ```
+    # EditorConfig is awesome: https://EditorConfig.org
 
-    <pre>                   # EditorConfig is awesome: https://EditorConfig.org
+    # top-most EditorConfig file
+    root = true
 
-                            # top-most EditorConfig file
-                            root = true
+    # Unix-style newlines with a newline ending every file
+    [*]
+    end_of_line = lf
+    insert_final_newline = true
+    # Matches multiple files with brace
+    # expansion notation
+    # Set default charset
+    [*.{js,py}]
+    charset = utf-8
 
-                            # Unix-style newlines with a newline ending every file
-                            [*]
-                            end_of_line = lf
-                            insert_final_newline = true
+    # 4 space indentation
+    [*.py]
+    indent_style = space
+    indent_size = 4
 
-                            # Matches multiple files with brace expansion notation
-                            # Set default charset
-                            [*.{js,py}]
-                            charset = utf-8
+    # Tab indentation (no size specified)
+    [Makefile]
+    indent_style = tab
 
-                            # 4 space indentation
-                            [*.py]
-                            indent_style = space
-                            indent_size = 4
+    # Indentation override for all JS under 
+    # lib directory
+    [lib/**.js]
+    indent_style = space
+    indent_size = 2
 
-                            # Tab indentation (no size specified)
-                            [Makefile]
-                            indent_style = tab
-
-                            # Indentation override for all JS under lib directory
-                            [lib/**.js]
-                            indent_style = space
-                            indent_size = 2
-
-                            # Matches the exact files either package.json or .travis.yml
-                            [{package.json,.travis.yml}]
-                            indent_style = space
-                            indent_size = 2
-                    </pre>
-
-    </figure>
+    # Matches the exact files either 
+    # package.json or .travis.yml
+    [{package.json,.travis.yml}]
+    indent_style = space
+    indent_size = 2
 
 3.  Plugin necessary for Editors
 
@@ -130,24 +128,18 @@ type: "blog"
     Express is a production server too
     
     1.  Create a folder and <var>srcServer.js</var>
-    2.  <figure>
-    
-        <pre>                       var express = require("express");
-                                    const path = require('path')
-                                    const open = require('open')
-                                    const port = 3000;
-                                    var app = express();
-                                    app.get("/",function(req,res) => {
-                                        res.sendFIle(path.join(__dirname, 'index.html'));
-                                    })
-    
-                                    app.listen(port, () => {
-                                        if(err) console.error(err);
-                                        open('http://localhost:'+ port)
-                                    })
-         </pre>
-    
-        </figure>
+    2.  ```
+        var express = require("express"); 
+        const path = require('path')  
+        const open = require('open')
+        const port = 3000;
+        var app = express();
+        app.get("/",function(req,res) => {
+         res.sendFIle(path.join(__dirname, 'index.html'
+         );
+        }) => { if(err) console.error(err);
+            open('http://localhost:'+ port)
+        }) 
     
     
 * ####Sharing Work-in-progress **(Libraries)**

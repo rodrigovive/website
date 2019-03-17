@@ -68,12 +68,12 @@ export default () => (
             <SocialButton site='twitter' username='RodrigoVCordova' />
 
           </div>
-          <div className={styles.row}>
+          <nav className={styles.row}>
             <HeaderLink to='/' text='HOME' />
             <HeaderLink to='/project' text='PROJECTS' />
             <HeaderLink to='/about' text='ABOUT' />
 
-          </div>
+          </nav>
 
         </header>
       )
