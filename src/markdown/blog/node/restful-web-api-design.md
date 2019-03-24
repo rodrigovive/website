@@ -1,5 +1,5 @@
 ---
-title: "Restful Web API Design with Node.js"
+title: "Restful Web API Design"
 date: "2018-07-02"
 image: "https://source.unsplash.com/150x150/?nodejs"
 keywords: "nodejs"

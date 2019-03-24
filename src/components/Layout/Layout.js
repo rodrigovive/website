@@ -8,7 +8,7 @@ export default ({ children }) => (
       {children}
     </div>
     <Footer>
-      Rodrigo Viveros - Made In Perú
+      Rodrigo Viveros - Made with JS
     </Footer>
   </div>
 )
