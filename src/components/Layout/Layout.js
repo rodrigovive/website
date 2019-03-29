@@ -8,7 +8,7 @@ export default ({ children }) => (
       {children}
     </div>
     <Footer>
-      Rodrigo Viveros - Made with JS
+      Jhair Rodrigo Viveros Cordova - Made with {'💙'}
     </Footer>
   </div>
 )

@@ -41,8 +41,8 @@ This is my preview for book Eloquent Javascript 3rd edition
         * string are ordered alphabetic Z < a
         * There is only one value ins JS that is not equal to itself NaN == NaN
         * Logical operators
-            * && 
-            * || 
+            * && second statement run if its true first
+            * || second statement run if its false first
             * ! not is an unary operator
             * Precedence
                 * ||, &&, >, ==, ..., / *, + -
@@ -105,6 +105,7 @@ This is my preview for book Eloquent Javascript 3rd edition
     - Final part updates the state of the loop after every iteration.
     - Break statement has the effect of immediately jumping out of the enclosing loop.
     - Continue statement is encountered in a loop body, control jumps out of the body and continues with the loop's next iteration.
+    - In/Of = Properties/Values
 10. Updating bindings succinctly
 
     - Shortcut for update a binding to hold a value based on that binding previous value c += 1
@@ -166,7 +167,44 @@ This is my preview for book Eloquent Javascript 3rd edition
 5. Mutability
     - Immutable such as numbers, strings and booleans.
     - Objects is mutable.
+6. Arrayology
+    - unshift, shift, push, pop, indexOf, lastIndexOf, slice, concat
+7. String 
+    - slice, indexOf, trim, padStart, split, join, repeat
+8. Math
+    - min, max, sqrt, cos, sin, tan, acos, asin, atan, PI, random, floor, ceil, round, abs
+9. JSON
+    - Use for save data in a file. Serialize data in format JSON.
+    - stringify, parse
 
+### Chapter 5 Higher Order Function
+
+1. Abstraction
+
+    - Hide details and give us the ability to talk about problems at a higher level.
+
+2. Higher-Order Functions
+
+    - Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions.
+3. Filter, Map, Reduce
+    - function is pure.
+4. String and character codes
+    - charCodeAt
+    - codePointAt
+    
+### Chapter 6 The secret life of Objects
+
+1. Encapsulation
+
+    - Put an underscore (_) character at the start of property names to indicate that those properites are private.
+    - Pieces of a program interact through interfaces.
+    - Interface consists of a specific set of methods and properties.
+
+2. Methods
+
+    - Methods are properties that hold function values.
+    - When a function is called as a method looked up as a property and immediately called.
+    - This its a body automatically points at the object that it was called on.
 
 
 
