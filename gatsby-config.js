@@ -1,7 +1,7 @@
 module.exports = {
 
   siteMetadata: {
-    title: "Rodrigo Viveros | Personal Site",
+    title: "Jhair Rodrigo Viveros Cordova",
     titleTemplate: "%s",
     description:
       "Javascript Developer",

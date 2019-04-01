@@ -8,7 +8,7 @@ import Seo from "../components/Seo/Seo"
 
 export default () => (
   <Layout>
-      <Seo title="Rodrigo Viveros - Projects" pathname="/project"
+      <Seo title="Jhair Rodrigo Viveros Cordova - Projects" pathname="/project"
            description="Project for learning and work"/>
       <Title text="Rodrigo Viveros - Projects"/>
       <Header/>
