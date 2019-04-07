@@ -204,8 +204,19 @@ This is my preview for book Eloquent Javascript 3rd edition
 
     - Methods are properties that hold function values.
     - When a function is called as a method looked up as a property and immediately called.
-    - This its a body automatically points at the object that it was called on.
+    - 'This' its a body automatically points at the object that it was called on.
+    - Called method takes the this value as its first argument and treats further arguments as normal parameters.
+    - Arrow functions are different, they do not bind their own this, but can see the this binding of the scope around them.
 
+3. Prototypes
+
+    - A prototype is another object that is used as a fallback source of properties.
+    - When an objects gets a request for a property that it does not have, its prototype will be searched for the property, the the prototype's prototype, and so on.
+
+4. Classes
+
+    - A class defines the shape of a type of object.
+    - 
 
 
    
