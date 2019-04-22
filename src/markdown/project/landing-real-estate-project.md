@@ -13,10 +13,9 @@ type: "project"
 
 ## Description of project
 
-1. My participation in this project was in the backend and integration in the frontend so design was part of my customer.
-2. I build this project with Laravel and Integration with CRM <a href="https://www.tokkobroker.com/" target="_blank">Tokkobroaker</a>  
-3. I build an API and returns results in JSON.
-4. I build an integration in the frontend with filters in Javascript.
+1. I build this project with Laravel and Integration with CRM <a href="https://www.tokkobroker.com/" target="_blank">Tokkobroaker</a>  
+2. I build an API and returns results in JSON.
+3. I build an integration in the frontend with filters in Javascript.
 
 ### Link to Project
 
