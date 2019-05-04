@@ -216,14 +216,22 @@ This is my preview for book Eloquent Javascript 3rd edition
 4. Classes
 
     - A class defines the shape of a type of object.
-    - 
 
+### Chapter 8 Bugs and Errors
 
-   
-    
- 
-    
-        
-       
-        
-               
+1. Strict mode
+
+    - Is very helpful when you create a binding
+    - When you forget new keyboard in constructor, will produce an error
+    - Note: This refers to the global scope object
+
+2. Testing
+    - Test suites are pieces of software that help you build and run collections of tasks.
+    - Test runners are suited to expressing test and by outputting informative information when a test fails.
+
+3. Debugging
+    - Debugger statement.
+
+4. Exceptions
+    - Exceptions are a mechanism that makes it possible for code that runs into a problem to raise an exception.
+    - Stack trace is information about the call stack that existed when the some exception was created.

@@ -11,6 +11,7 @@ type: "project"
 ### Project: Agenda Auditorium for Jorge Basadre Grohmann National University
 
 This project was build in Vue.js and Laravel framework with voyager.
+I build this project for my portfolio and for my university like practice.
 
 ### Link to Project
 
